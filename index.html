@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container">
+            <input onclick="" id="display" class="display" type="text">
+        </div>
+        <div class="container">
+            <div class="col">
+                <div class="row mbtn">
+                    <button onclick="clr()" class="clear">CLEAR</button>
+                    <button onclick="del()" class="clear" id="btn">DEL</button>
+                </div>
+                <div class="row mbtn">
+                    <button onclick="setVal('7')" class="inbtn" id="btn">7</button>
+                    <button onclick="setVal('8')" class="inbtn" id="btn">8</button>
+                    <button onclick="setVal('9')" class="inbtn" id="btn">9</button>
+                    <button onclick="setVal('/')" class=" clr" id="btn">/</button>
+                </div>
+                <div class="row mbtn">
+                    <button onclick="setVal('4')" class="inbtn" id="btn">4</button>
+                    <button onclick="setVal('5')" class="inbtn" id="btn">5</button>
+                    <button onclick="setVal('6')" class="inbtn" id="btn">6</button>
+                    <button onclick="setVal('*')" class=" clr" id="btn">x</button>
+                </div>
+                <div class="row mbtn">
+                    <button onclick="setVal('1')" class="inbtn" id="btn">1</button>
+                    <button onclick="setVal('2')" class="inbtn" id="btn">2</button>
+                    <button onclick="setVal('3')" class="inbtn" id="btn">3</button>
+                    <button onclick="setVal('-')" class="clr" id="btn">-</button>
+                </div>
+                <div class="row mbtn">
+                    <button onclick="setVal('.')" class="inbtn" id="btn">.</button>
+                    <button onclick="setVal('0')" class="inbtn" id="btn">0</button>
+                    <button onclick="calculation()" class="inbtn" id="btn">=</button>
+                    <button onclick="setVal('+')" class="clr" id="btn">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
